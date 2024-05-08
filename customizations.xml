@@ -1,0 +1,48 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities></Entities>
+  <Roles></Roles>
+  <Workflows></Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <CanvasApps>
+    <CanvasApp>
+      <Name>new_nursepatientinformation_6a53b</Name>
+      <AppVersion>2022-04-10T18:22:47Z</AppVersion>
+      <Status>Ready</Status>
+      <CreatedByClientVersion>3.22034.17.0</CreatedByClientVersion>
+      <MinClientVersion>3.22034.17.0</MinClientVersion>
+      <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","sienaVersion":"20220410T182247Z-3.22034.17.0","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Phone","publisherVersion":"3.22034.17","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+      <IsCdsUpgraded>0</IsCdsUpgraded>
+      <GalleryItemId xsi:nil="true"></GalleryItemId>
+      <BackgroundColor>rgba(255, 255, 255, 1)</BackgroundColor>
+      <DisplayName>Nurse-PatientInformation</DisplayName>
+      <Description>Handy digital tool: support mobile working</Description>
+      <CommitMessage xsi:nil="true"></CommitMessage>
+      <Publisher xsi:nil="true"></Publisher>
+      <AuthorizationReferences>[]</AuthorizationReferences>
+      <ConnectionReferences>{"4530ba3b-f1da-45af-91f5-d11688ac80b0":{"id":"/providers/microsoft.powerapps/apis/shared_fhirbase","displayName":"FHIRBase","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1410/1.0.1410.2197/fhirbase/icon.png","dataSources":["FHIRBase"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Premium","actions":["GETPatient"]},"e6679218-b2e1-490c-8da9-dad3d5546c9a":{"id":"/providers/microsoft.powerapps/apis/shared_fhirclinical","displayName":"FHIRClinical","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1410/1.0.1410.2197/fhirclinical/icon.png","dataSources":["FHIRClinical"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Premium","actions":["GETDiagnosticReport","GETCarePlan","GETMedicationRequest","GETObservation","GETDiagnosticReportID"]}}</ConnectionReferences>
+      <DatabaseReferences>{}</DatabaseReferences>
+      <AppComponents>[]</AppComponents>
+      <AppComponentDependencies>[]</AppComponentDependencies>
+      <CanConsumeAppPass>1</CanConsumeAppPass>
+      <CanvasAppType>0</CanvasAppType>
+      <BypassConsent>0</BypassConsent>
+      <AdminControlBypassConsent>0</AdminControlBypassConsent>
+      <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <CdsDependencies>{"cdsdependencies":[]}</CdsDependencies>
+      <IsCustomizable>1</IsCustomizable>
+      <BackgroundImageUri>/CanvasApps/new_nursepatientinformation_6a53b_BackgroundImageUri</BackgroundImageUri>
+      <DocumentUri>/CanvasApps/new_nursepatientinformation_6a53b_DocumentUri.msapp</DocumentUri>
+    </CanvasApp>
+  </CanvasApps>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>
